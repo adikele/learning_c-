@@ -2,9 +2,8 @@
 // the fact that a pointer to a derived class is type-compatible with a pointer to its base class.
 // To enable polymorphism, we need to have virutal functions in the base class
 
-// Benefits of polymorphism:
-//case 1 Without using polymorphism -- using pointers to base class
-//case 2 Using polymorphism -- Now using pointers to derived class
+//case 1 Without using polymorphism -- using pointers to base class (but unable to access derived class functions through these pointers)
+//case 2 Using polymorphism -- now again using pointers to base class (but able to access derived class functions through these pointers)
 #include <iostream>
 using namespace std;
 
